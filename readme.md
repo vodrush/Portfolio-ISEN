@@ -22,7 +22,7 @@ Parmi ces projets, j’ai notamment développé un portfolio personnel ainsi qu�
 J’ai de nombreux langages et technologies en connaissance, voici une liste :
 
 - **Python** : maîtrise des bases, scripting et projets IA simples.  
-- **React.js / Framework** : création d’interfaces interactives et gestion de composants.  
+- **React.js** : création d’interfaces interactives et gestion de composants.  
 - **Node.js** : développement côté serveur et gestion de petites API.  
 - **Vite** : bundler et optimisation de projets front-end.  
 - **HTML / CSS** : structuration et mise en forme de pages web.  
@@ -36,7 +36,7 @@ J’ai réalisé un site de gestion de livres en CRUD.
 
 Ce projet m’a permis d’acquérir rapidement les bases du CRUD (Create, Read, Update, Delete) et de mieux comprendre la logique d’une application web complète.  
 La principale difficulté concernait le serveur Express, notamment les problèmes liés aux middlewares CORS.
-  
+
 Pour résoudre cela, j’ai effectué des recherches approfondies via la documentation et des plateformes comme StackOverflow, ce qui m’a permis de comprendre le problème et d’y apporter une solution efficace.
 
 Voici le lien GitHub du projet concerné : [https://github.com/vodrush/Projet-7](https://github.com/vodrush/Projet-7)
