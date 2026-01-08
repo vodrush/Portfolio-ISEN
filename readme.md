@@ -15,7 +15,7 @@ Avec le temps, cet intérêt est devenu une véritable passion, et j’ai souhai
 
 Mon parcours m’a appris à être autonome, persévérant et à toujours chercher à progresser, même face aux difficultés.  
 
-Dans le cadre de ma formation de développeur web, j’ai réalisé six projets personnels en autodidacte, principalement en JavaScript.  
+Dans le cadre de ma formation de développeur web, j’ai réalisé quatre projets personnels en autodidacte, principalement en JavaScript.  
 Parmi ces projets, j’ai notamment développé un portfolio personnel ainsi qu’un site web permettant de suivre des séries et des films.
 
 ## 3️⃣ Compétences techniques
