@@ -18,13 +18,14 @@ Parmi ces projets, j’ai notamment développé un portfolio personnel ainsi qu�
 
 ## 3️⃣ Compétences techniques
 
-J’ai de nombreux langages et technologies en connaissance, voici une liste :  
-- Python  
-- React.js  
-- Node.js  
-- Vite  
-- HTML / CSS  
-- GitHub  
+J’ai de nombreux langages et technologies en connaissance, voici une liste :
+  
+- **Python** : maîtrise des bases, scripting et projets IA simples.  
+- **React.js / Framework** : création d’interfaces interactives et gestion de composants.  
+- **Node.js** : développement côté serveur et gestion de petites API.  
+- **Vite** : bundler et optimisation de projets front-end.  
+- **HTML / CSS** : structuration et mise en forme de pages web.  
+- **GitHub** : gestion de versions, collaboration et suivi de projets.
 
 Actuellement, Python est la technologie que je maîtrise le mieux.
 
