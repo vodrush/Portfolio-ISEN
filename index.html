@@ -14,13 +14,8 @@
     <header class="header" role="banner">
         <nav class="navbar" role="navigation" aria-label="Navigation principale">
             <div class="nav-container">
-                <a href="#hero" class="logo">RS</a>
-                <ul class="nav-links">
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#parcours">Parcours</a></li>
-                    <li><a href="#skills">Compétences</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <a href="#hero" class="logo" id="nav-logo"></a>
+                <ul class="nav-links" id="nav-links">
                 </ul>
             </div>
         </nav>
@@ -28,83 +23,39 @@
 
     <main>
         <section id="hero" class="hero" role="region" aria-labelledby="hero-title">
-            <div class="hero-content">
-                <h1 id="hero-title">Raphael Santiago</h1>
-                <h2 class="hero-subtitle">Web Developer & AI Engineer</h2>
-                <p class="hero-description">Je conçois et déploie des applications web performantes, du frontend
-                    interactif au backend optimisé. Spécialisé en intégration d'IA et architectures scalables.</p>
-
-                <div class="hero-cta">
-                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
-                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
-                </div>
-
-                <div class="social-links">
-                    <a href="https://github.com/vodrush" class="social-link" aria-label="GitHub" target="_blank"
-                        rel="noopener noreferrer">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512"
-                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
-                            </path>
-                        </svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/raphael-santiago-7b80961b5/" class="social-link"
-                        aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
-                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
-                            </path>
-                        </svg>
-                    </a>
-                </div>
+            <div class="hero-content" id="hero-content">
             </div>
 
-            <div class="hero-image">
-                <img src="./assets/img/profile.webp" alt="Photo de profil de Raphael Santiago">
+            <div class="hero-image" id="hero-image">
             </div>
         </section>
 
         <section class="about" id="about">
-            <h2>À propos</h2>
-            <p>Je m'appelle Raphaël et j'ai 21 ans. Passionné par l'intersection entre le web moderne et l'intelligence
-                artificielle, je crée des applications web performantes. J'ai réalisé un bac STI2D option SIN, puis j'ai
-                poursuivi avec un BTS SIO que je n'ai pas mené à terme. Afin de rebondir, j'ai suivi une formation en
-                ligne de développeur web chez OpenClassrooms pendant un an.</p>
-            <p>Aujourd'hui, je suis en formation de Développeur IA chez Simplon / ISEN Toulon. J'ai choisi cette
-                formation car l'intelligence artificielle m'intéresse depuis qu'elle est devenue accessible au grand
-                public. Avec le temps, cet intérêt est devenu une véritable passion, et j'ai souhaité m'orienter vers
-                une formation qui me permette d'en faire mon métier.</p>
+            <div id="about-content"></div>
         </section>
 
         <section class="parcours" id="parcours" role="region" aria-labelledby="parcours-title">
-            <h2 id="parcours-title">Parcours & Contexte</h2>
-            <p>Mon parcours m'a appris à être autonome, persévérant et à toujours chercher à progresser, même face aux
-                difficultés.</p>
-            <p>Dans le cadre de ma formation de développeur web, j'ai réalisé six projets personnels en autodidacte,
-                principalement en JavaScript. Parmi ces projets, j'ai notamment développé un portfolio personnel ainsi
-                qu'un site web permettant de suivre des séries et des films.</p>
+            <div id="parcours-content"></div>
         </section>
 
         <section id="skills" class="skills" role="region" aria-labelledby="skills-title">
-            <h2 id="skills-title">Compétences Techniques</h2>
+            <h2 id="skills-title"></h2>
 
             <div class="skills-grid">
                 <div class="skill-category" role="group" aria-labelledby="frontend-heading">
-                    <h3 id="frontend-heading">Front-End</h3>
+                    <h3 id="frontend-heading"></h3>
                     <ul class="skill-list" id="skills-frontend">
                     </ul>
                 </div>
 
                 <div class="skill-category" role="group" aria-labelledby="backend-heading">
-                    <h3 id="backend-heading">Back-End</h3>
+                    <h3 id="backend-heading"></h3>
                     <ul class="skill-list" id="skills-backend">
                     </ul>
                 </div>
 
                 <div class="skill-category" role="group" aria-labelledby="tools-heading">
-                    <h3 id="tools-heading">Langages & Outils</h3>
+                    <h3 id="tools-heading"></h3>
                     <ul class="skill-list" id="skills-tools">
                     </ul>
                 </div>
@@ -112,13 +63,9 @@
         </section>
 
         <section id="projects" class="projects" role="region" aria-labelledby="projects-title">
-            <h2 id="projects-title">Mes Projets</h2>
+            <h2 id="projects-title"></h2>
 
             <div id="project-filters" class="filters">
-                <button class="filter-btn active" data-filter="all">Tous</button>
-                <button class="filter-btn" data-filter="Front-end">Front-end</button>
-                <button class="filter-btn" data-filter="Back-end">Back-end</button>
-                <button class="filter-btn" data-filter="Fullstack">Fullstack</button>
             </div>
 
             <div class="projects-grid" id="projects-grid">
@@ -126,33 +73,28 @@
         </section>
 
         <section id="contact" class="contact" role="region" aria-labelledby="contact-title">
-            <h2 id="contact-title">Collaborons Ensemble</h2>
-            <p class="contact-subtitle">Vous avez un projet intéressant ou souhaitez discuter d'une opportunité ? Je
-                serais ravi d'échanger avec vous.</p>
+            <h2 id="contact-title"></h2>
+            <p class="contact-subtitle" id="contact-subtitle"></p>
 
             <form id="contact-form" class="contact-form" method="POST" action="#" role="form"
                 aria-label="Formulaire de contact">
                 <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Votre nom" required aria-label="Votre nom">
+                    <input type="text" id="name" name="name" placeholder="" required aria-label="">
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Votre email" required
-                        aria-label="Votre adresse email">
+                    <input type="email" id="email" name="email" placeholder="" required aria-label="">
                 </div>
                 <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Votre message" rows="5" required
-                        aria-label="Votre message"></textarea>
+                    <textarea id="message" name="message" placeholder="" rows="5" required aria-label=""></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Envoyer</button>
+                <button type="submit" id="submit-btn" class="btn btn-primary"></button>
             </form>
             <div id="form-feedback" class="form-feedback"></div>
         </section>
     </main>
 
     <footer class="footer" role="contentinfo">
-        <div class="footer-content">
-            <p>&copy; 2026 Raphael Santiago. Tous droits réservés.</p>
-            <p>Créé avec passion pour partager mon expertise en web development et IA.</p>
+        <div class="footer-content" id="footer-content">
         </div>
     </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>

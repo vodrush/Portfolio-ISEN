@@ -2,8 +2,63 @@ const portfolioData = {
     settings: {
         name: "Raphael Santiago",
         title: "Web Developer & AI Engineer",
+        description: "Je conçois et déploie des applications web performantes, du frontend interactif au backend optimisé. Spécialisé en intégration d'IA et architectures scalables.",
+        socials: {
+            github: "https://github.com/vodrush",
+            linkedin: "https://www.linkedin.com/in/raphael-santiago-7b80961b5/"
+        },
+        navLinks: [
+            { name: "À propos", url: "#about" },
+            { name: "Parcours", url: "#parcours" },
+            { name: "Compétences", url: "#skills" },
+            { name: "Projets", url: "#projects" },
+            { name: "Contact", url: "#contact" }
+        ]
     },
+    about: {
+        title: "À propos",
+        paragraphs: [
+            "Je m'appelle Raphaël et j'ai 21 ans. Passionné par l'intersection entre le web moderne et l'intelligence artificielle, je crée des applications web performantes. J'ai réalisé un bac STI2D option SIN, puis j'ai poursuivi avec un BTS SIO que je n'ai pas mené à terme. Afin de rebondir, j'ai suivi une formation en ligne de développeur web chez OpenClassrooms pendant un an.",
+            "Aujourd'hui, je suis en formation de Développeur IA chez Simplon / ISEN Toulon. J'ai choisi cette formation car l'intelligence artificielle m'intéresse depuis qu'elle est devenue accessible au grand public. Avec le temps, cet intérêt est devenu une véritable passion, et j'ai souhaité m'orienter vers une formation qui me permette d'en faire mon métier."
+        ]
+    },
+    parcours: {
+        title: "Parcours & Contexte",
+        paragraphs: [
+            "Mon parcours m'a appris à être autonome, persévérant et à toujours chercher à progresser, même face aux difficultés.",
+            "Dans le cadre de ma formation de développeur web, j'ai réalisé six projets personnels en autodidacte, principalement en JavaScript. Parmi ces projets, j'ai notamment développé un portfolio personnel ainsi qu'un site web permettant de suivre des séries et des films."
+        ]
+    },
+    footer: {
+        copyright: "© 2026 Raphael Santiago. Tous droits réservés.",
+        description: "Créé avec passion pour partager mon expertise en web development et IA."
+    },
+    contact: {
+        title: "Collaborons Ensemble",
+        subtitle: "Vous avez un projet intéressant ou souhaitez discuter d'une opportunité ? Je serais ravi d'échanger avec vous.",
+        buttonText: "Envoyer",
+        placeholders: {
+            name: "Votre nom",
+            email: "Votre email",
+            message: "Votre message"
+        }
+    },
+    titles: {
+        skills: "Compétences Techniques",
+        projects: "Mes Projets"
+    },
+    filters: [
+        { name: "Tous", value: "all" },
+        { name: "Front-end", value: "Front-end" },
+        { name: "Back-end", value: "Back-end" },
+        { name: "Fullstack", value: "Fullstack" }
+    ],
     skills: {
+        categories: {
+            frontend: "Front-End",
+            backend: "Back-End",
+            tools: "Langages & Outils"
+        },
         frontend: [
             { name: "React", icon: `<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path><circle cx="12" cy="12" r="3"></circle><path d="M12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"></path></svg>` },
             { name: "JavaScript (ES6+)", icon: `<svg stroke="currentColor" fill="currentColor" stroke-width="0" version="1.1" viewBox="0 0 32 32" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M9.633 7.968h3.751v10.514c0 4.738-2.271 6.392-5.899 6.392-0.888 0-2.024-0.148-2.764-0.395l0.42-3.036c0.518 0.173 1.185 0.296 1.925 0.296 1.58 0 2.567-0.716 2.567-3.282v-10.489zM16.641 20.753c0.987 0.518 2.567 1.037 4.171 1.037 1.728 0 2.641-0.716 2.641-1.826 0-1.012-0.79-1.629-2.789-2.32-2.764-0.987-4.59-2.517-4.59-4.961 0-2.838 2.394-4.985 6.293-4.985 1.9 0 3.258 0.37 4.245 0.839l-0.839 3.011c-0.642-0.321-1.851-0.79-3.455-0.79-1.629 0-2.419 0.765-2.419 1.604 0 1.061 0.913 1.53 3.085 2.369 2.937 1.086 4.294 2.616 4.294 4.985 0 2.789-2.122 5.158-6.688 5.158-1.9 0-3.776-0.518-4.714-1.037l0.765-3.085z"></path></svg>` },
