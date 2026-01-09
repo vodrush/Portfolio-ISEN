@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let filtreActif = 'all';
 
-    const conteneurLogo = document.getElementById('nav-logo');
     const conteneurNavLinks = document.getElementById('nav-links');
     const conteneurHeroContent = document.getElementById('hero-content');
     const conteneurHeroImage = document.getElementById('hero-image');
@@ -29,10 +28,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     function afficherNav() {
         const reglages = portfolioData.settings;
-
-        if (conteneurLogo) {
-            conteneurLogo.innerText = 'RS';
-        }
 
         if (conteneurNavLinks) {
             let htmlLiens = '';
