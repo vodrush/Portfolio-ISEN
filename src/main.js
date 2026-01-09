@@ -30,14 +30,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function afficherNav() {
         const reglages = portfolioData.settings;
 
-        const noms = reglages.name.split(' ');
-        let initiales = '';
-        for (let i = 0; i < noms.length; i++) {
-            initiales = initiales + noms[i][0];
-        }
-
         if (conteneurLogo) {
-            conteneurLogo.innerText = initiales;
+            conteneurLogo.innerText = 'RS';
         }
 
         if (conteneurNavLinks) {
@@ -75,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
         `;
         if (conteneurHeroImage) {
-            conteneurHeroImage.innerHTML = '<img src="./assets/img/profile.webp" alt="Photo de profil de ' + reglages.name + '">';
+            conteneurHeroImage.innerHTML = '<img src="./assets/img/profile.webp" alt="Photo de profil">';
         }
     }
 
